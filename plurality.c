@@ -12,6 +12,9 @@ if we use this , then following changes cn be made:
     ---[lines where this change is to be made is commented as: //change ]
 */
 
+/*execution instructions:
+u hv to give 2 or more [upto 9] candidate names as command line argument*/
+
 
 
 
