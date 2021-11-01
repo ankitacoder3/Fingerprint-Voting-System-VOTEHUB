@@ -133,3 +133,7 @@ cn do that in part2 of proj
 as it is in all files
 
 or link this file.... using links
+
+4-before u make any htmlfile---
+copypaste contents of navbar in that file..then add contents
+also external css is used
