@@ -1,0 +1,133 @@
+A]GENERAL INSTRUCTIONS:
+
+1-  make a folder named "Votehub"
+In that put "key3"img file &navbar.html..
+from github...
+You can add other html fils of the 
+project in this folder.
+
+2- when u add a file on github
+ make changes in index.txt file
+
+""add ur name and file name"" there.
+
+3-index.txt will have a part-"cur used"
+In which all files currently used 
+ll be mentioned 
+[this is index.txt file]
+
+
+B]Instructions:github help: V BASIC:
+[this much we ll need fr this]
+
+1. This is how u upload files:
+
+i-save file	ii-open ur github
+iii-go to github repository link
+(github link in grp description)
+
+iv-click on branch:"main"
+v-click on add file
+vi-click on upload file
+
+vii-click on "choose your files"
+viii-click on "commit changes"
+
+ix- add a sentence in index.txt
+
+
+2.downloading files:
+
+a-either 
+i-go to "main" branch
+ii-select "code"
+iii- select download ZIP
+
+[it ll download all files in d folder]
+
+
+b-or
+i-go to "main" branch
+ii-click on the file name , for the
+file u want to copy
+{
+partI
+iii-click on 2 boxes wala icon---
+iv-select "copy raw data"
+ or
+partII
+iii- click on pencil icon---
+iv- click on "edit this file"
+v- select whole file content-
+ctrl+a, then ctrl+c to copy,
+ctrl+v to paste where u want}
+
+this is for individual files
+
+
+3-- editing files
+
+same steps as 
+2 - b - part II
+only change in step "v"
+v-- edit file where u want
+[this is fr index.txt]
+
+
+C]Instructions-overlook of repository:
+there r 3 branches:
+
+1]wireframes:
+all pics r there ...u can refer them 
+
+2]reference :
+reference links r there...
+also there is a code in c fr to vote...
+[plurality.c]
+
+3] main:
+we ll b working with this folder.
+ADD ALL UR FILES HERE WHEN DONE.
+
+-index.txt--keeps track of cur. files...
+-instructions.txt[this file]
+
+
+D]Instructions- parts[was in wasapp msg]
+project is divided into part: 4 parts:
+
+0]Part0-- wireframe (done n submitted)
+
+1]Part1-- html/react(static appearance) 
+(divided --- to b done) 
+html-by 2/11 ;react-by 4/11or 5/11
+
+2] dynamic appearance(use js, ajax, etc) 
+(to b divides n done)
+[by 8/11 or 9/11]
+
+3]backend:2Database (mongodb), 
+1working(to vote pg) (nodejs). 
+(To b divided n done)[by 11/11 or12/11]
+
+[final submission&demo:15/11 to 19/11]
+
+
+E]Instructions[1-11-21]:
+A-navigation bar:
+
+1-this is the nav bar code...execution.
+
+2-when i change a href here...in file
+it can kinda go to the other tab..
+
+see url in google chrome changes ...
+it works ..bt NT COMPLETELY
+
+we need to add some onclick function we 
+cn do that in part2 of proj
+
+3- we need to add this navbar.html code
+as it is in all files
+
+or link this file.... using links

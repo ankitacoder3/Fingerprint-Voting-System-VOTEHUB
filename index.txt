@@ -1,0 +1,18 @@
+<!--index.txt has 2 parts-->
+
+I}ALL FILES IN MAIN BRANCH:
+[exclucding .txt files]
+
+<!--no.]name of file	-- by whom-->
+
+1]	navbar.html --	Ankita Sahoo
+
+
+
+II}FILES IN  CURRENT USE:  {cur use}
+
+<!--no.]	filename-->
+
+1]	navbar.html
+
+<!--END-->
