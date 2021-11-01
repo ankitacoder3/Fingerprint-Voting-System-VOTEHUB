@@ -34,6 +34,7 @@ vii-click on "choose your files"
 viii-click on "commit changes"
 
 ix- add a sentence in index.txt //part3
+//there in part 3 of this...
 
 
 2.downloading files:
@@ -53,12 +54,12 @@ file u want to copy
 {
 partI
 iii-click on 2 boxes wala icon---
-iv-select "copy raw data"
+[and click on "copy raw data"]
  or
 partII
 iii- click on pencil icon---
-iv- click on "edit this file"
-v- select whole file content-
+[and click on "edit this file"]
+iv- select whole file content-
 ctrl+a, then ctrl+c to copy,
 ctrl+v to paste where u want}
 
@@ -69,8 +70,9 @@ this is for individual files
 
 same steps as 
 2 - b - part II
-only change in step "v"
-v-- edit file where u want
+only change in step "iv"
+iv-- edit file where u want
+v-- click on "commit changes"
 [this is fr index.txt]
 
 
