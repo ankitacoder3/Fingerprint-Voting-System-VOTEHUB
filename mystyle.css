@@ -1,0 +1,36 @@
+    body   
+    {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
+    background-color: lightblue;
+    }  
+    header {  
+    background-color: midnightblue;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 50px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 0px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30pt;color:red;
+    }  
+    header li a {  
+    color:palegoldenrod; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    text-decoration: underline;  
+    }  
