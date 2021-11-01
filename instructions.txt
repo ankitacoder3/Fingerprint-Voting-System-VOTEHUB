@@ -33,7 +33,7 @@ vi-click on upload file
 vii-click on "choose your files"
 viii-click on "commit changes"
 
-ix- add a sentence in index.txt
+ix- add a sentence in index.txt //part3
 
 
 2.downloading files:
