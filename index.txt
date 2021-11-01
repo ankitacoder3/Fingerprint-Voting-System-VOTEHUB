@@ -6,7 +6,8 @@ I}ALL FILES IN MAIN BRANCH:
 <!--no.]name of file	-- by whom-->
 
 1]	navbar.html --	Ankita Sahoo
-2]	3.html --	Ankita Sahoo
+2]	3.html --	Ankita Sahoo {for demonstration}
+3]  mystyle.css --	Ankita Sahoo
 
 
 
@@ -15,5 +16,6 @@ II}FILES IN  CURRENT USE:  {cur use}
 <!--no.]	filename-->
 
 1]	navbar.html
+2]  mystyle.css 
 
 <!--END-->
