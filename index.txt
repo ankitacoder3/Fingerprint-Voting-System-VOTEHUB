@@ -8,6 +8,7 @@ I}ALL FILES IN MAIN BRANCH:
 1]	navbar.html --	Ankita Sahoo
 2]	3.html --	Ankita Sahoo {for demonstration}
 3]  mystyle.css --	Ankita Sahoo
+4]   profile.html --	Ankita Sahoo
 
 
 
@@ -17,5 +18,6 @@ II}FILES IN  CURRENT USE:  {cur use}
 
 1]	navbar.html
 2]  mystyle.css 
+3]  profile.html
 
 <!--END-->
