@@ -1,0 +1,110 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+    <Title> VOTEHUB</Title>  
+    <link rel="stylesheet" href="mystyle.css">  
+    <link rel="icon" type="image/x-icon" href="v.jpg">
+</Head>  
+<Body> 
+    <header>  <nav>  
+        <ul>  
+            <li >  <b>Votehub &emsp;&emsp; &emsp;</b></li>  
+            <li >  <a href="intoduction.html"> Introduction  </a>  </li>  &emsp;&emsp;
+            <li >  <a href=""> Contact Us </a>  </li>  &emsp;&emsp; 
+            <li > <a href=""> Rules </a> </li>  &emsp; &emsp;
+            <li >  <a href=""> FAQ</a>  </li>  &emsp;&emsp;
+            <li >  <a href="vote.html"> To Vote</a>  </li>  &emsp;&emsp;
+            <li >  <a href=""> Timeline</a>  </li>  &emsp;&emsp;
+            <li >  <a href=""> Profile</a>  </li>   &emsp; &emsp;&emsp;
+            <li >  <a href="loginpg.html"> <img width="50px" height="50px" src="key.jpg"></img> </a>  </li>   &emsp;&emsp;
+        </ul>  
+    </nav>  </header> 
+    <hr color= darkblue size=10>
+    <article> 
+        <nav style="position: sticky;height: 50px;">&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
+
+            TO VOTE<!--heading here , all letters in caps-->
+
+        </nav>
+        <nav></nav><br>
+        <hr color= darkblue size=10><br><br><br><br>
+        <section style="height: 2000px;"><br><br><!--START-->
+            <html>
+    <head>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+            class Intro extends React.Component{
+                render(){
+                    return(
+                        <div>
+                            <h1>VoterID:[       ]</h1>
+                            <h2># You can vote only for one candidate</h2>
+                            <h2># You can submit the form only once</h2>
+                            </div>
+                    )
+                }
+            }
+            class Details extends React.Component{
+                render(){
+                    var letterStyle={
+                            padding:50,
+                            margin:10,
+                            backgroundColor:"#800046",
+                            color:"#111",
+                            display:"inline-block",
+                            fontFamily:"monospace",
+                            fontSize:32,
+                            textAlign:"center"
+                        }
+                    return(
+                        <div style={letterStyle}> 
+                            
+                            <h1>{this.props.cand}:{this.props.name}</h1>
+                            <img src="profile1.jpg"></img>
+                            <img src="moon.jpg"></img>
+                            <button type="button">Vote</button>
+                        
+                          
+                            
+                            </div>
+
+                    )
+                }
+            }
+            ReactDOM.render(
+                <div>
+                    <Intro/>
+                    
+                    <Details  cand="Candidate 1" name="Aryan"  />
+                    <Details  cand="Candidate 2" name="Vidisha"/>
+                    <Details  cand="Candidate 3" name="Ankita"/>
+                    <Details  cand="Candidate 4" name="Anvita"/>
+                   
+                    </div>,
+                    document.querySelector("#root")
+            );
+
+        
+        </script>
+
+
+    </body>
+</html>
+
+            
+
+            <br><br></section>
+    </article>
+    <article></article>
+    
+   
+    
+    
+
+</Body>   
+</Html>  
