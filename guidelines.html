@@ -1,0 +1,132 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+    <Title> VOTEHUB</Title>  
+    <link rel="stylesheet" href="mystyle.css">  
+    <link rel="icon" type="image/x-icon" href="v.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        #1{
+            color: aliceblue;
+
+        }
+    </style>
+</Head>  
+<Body> 
+    <header>  <nav>  
+        <ul>  
+            <li >  <b>Votehub &emsp;&emsp; &emsp;</b></li>  
+            <li >  <a href="introduction.html"> Introduction  </a>  </li>  &emsp;&emsp;
+            <li >  <a href="contact_us.html"> Contact Us </a>  </li>  &emsp;&emsp; 
+            <li > <a href= "guidelines.html"> Guidelines </a> </li>  &emsp; &emsp;
+            <li >  <a href="faq.html"> FAQ</a>  </li>  &emsp;&emsp;
+            <li >  <a href="to_vote.html"> To Vote</a>  </li>  &emsp;&emsp;
+            <li >  <a href="timeline.html"> Timeline</a>  </li>  &emsp;&emsp;
+            <li >  <a href="profile.html"> Profile</a>  </li>   &emsp; &emsp;&emsp;
+            <li >  <a href="login.html"> <img width="50px" height="50px" src="key3.jpg"></img> </a>  </li>   &emsp;&emsp;
+        </ul>
+    </nav>  </header> 
+    <hr color= darkblue size=10>
+    <article> 
+        <nav style="position: sticky;height: 50px;"> &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            &ensp; GUIDELINES<!--heading here , all letters in caps-->
+
+        </nav>
+        <nav></nav><br>
+        <hr color= darkblue size=10><br><br><br><br>
+        <section  style="height: 1900px;"><br><br>
+
+            <!--body content here , u can add inline style if u want-->
+
+            <div id="container"></div>
+            
+            <script type="text/babel">
+                var des = document.querySelector("#container");
+                class Heading extends React.Component {
+                    render() {
+                        return <h1 style={{color: "maroon"}}> <h1>{this.props.content} </h1></h1>
+                    }
+                }
+                class Info extends React.Component {
+                    render() {
+                        return <div className={this.props.type}>
+                        <h5 style={{color: "darkgreen"}} >&emsp;&emsp;{this.props.children}</h5>
+                        </div>
+                    }
+                }
+
+        
+                ReactDOM.render(
+                    <div>
+                        <Heading content="Guidelines for voting are present in the following 3 sections, which are:"/>
+                        <Info type="greeting" >
+                            &emsp;&emsp; 1. GENERAL GUIDELINES &emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;2. GUIDELINES FOR VOTERS 
+                            &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;3. GUIDELINES FOR CANDIDATES<br/><br/><br/><br/><br/>
+                        </Info>
+                        <hr color="darkblue"/><br/>
+                        <Heading content=" 1. GENERAL GUIDELINES:"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;1. Once you create an account (USERNAME-SHOULD BE YOUR EMAIL ID), please fill your profile.<br/><br/>
+                            &emsp;&emsp;2. IN THE PROFILE, THE CANDIDATE OR VOTER ID IS THE USERNAME (EMAIL-ID).<br/><br/>
+                            &emsp;&emsp;3. "REMEMBER YOU CAN ONLY FILL AS A CANDIDATE OR A VOTER IN THE PROFILE!"<br/><br/>
+                            &emsp;&emsp;4. IF FOUND THAT A CANDIDATE  HAS ALSO MADE A VOTER PROFILE , YOU WILL BE "DISQUALIFIED" FROM STANDING FOR THE ELECTION.<br/><br/>
+                            &emsp;&emsp;5. IF FOUND THAT A VOTER  HAS ALSO MADE A CANDIDATE PROFILE , YOU WILL BE "DISQUALIFIED" FROM VOTING  IN THE ELECTION.<br/><br/>
+                            &emsp;&emsp;6. You can fill your profile from the REGISTRATION start date to REGISTRATION end date. Refer "TIMELINE" for further details.<br/><br/>
+                            &emsp;&emsp;7. NO MORE PROFILES WILL BE ENTERTAINED AFTER "REGISTRATION" ENDS.<br/><br/>
+                            &emsp;&emsp;8. After REGISTRATION, there is a VERIFICATION PROCESS. In this the details of all profiles are crosschecked and verified. Refer "TIMELINE" for further details.<br/><br/>
+                            &emsp;&emsp;9. You will be sent an email, once your profile is verified. This email shall also contain details of the voting time and date.  <br/><br/>
+                            &emsp;&emsp;10. If there are any issues with your profile and information that you provided, you will be sent an email regarding the same. Please respond soon to that email, so that  <br/>&emsp;&emsp;&emsp; your profile can be verified. IF A USER DOESNOT REPLY TO THE MAIL SENT (INCASE OF ANY ISSUES WITH THE PROFILE), ATLEAST 3 DAYS PRIOR TO <br/>&emsp;&emsp;&emsp;THE ENDING OF VERIFICATION PROCESS, THEY SHALL BE "DISQUALIFIED".<br/><br/>
+                            &emsp;&emsp;11. After VERIFICATION, the election or voting process starts. Refer "TIMELINE" for further details.<br/><br/>
+                            &emsp;&emsp;12. After  the election or voting process ends, the RESULTS WILL BE ANNOUNCED SOON. Refer "TIMELINE" for further details. <br/><br/>
+                            &emsp;&emsp;13. For further queries, refer "CONTACT US". Thank you.<br/><br/>
+                            <br/><br/>
+                        </Info>
+                        <hr color="darkblue"/><br/>
+                        <Heading content=" 2. GUIDELINES FOR VOTERS :"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;1. ALL fields except middle name are required.<br/><br/>
+                            &emsp;&emsp;2. Upload IMAGE FILES (JPEG) for photograph, fingerprint, and signature. IMAGE FILES maximum size is 40MB.<br/><br/>
+                            &emsp;&emsp;3. SIGNATURE AND FINGERPRINT SHOULD BE CLEARLY VISIBLE AND READABLE.<br/><br/>
+                            &emsp;&emsp;4. "RIGHT-THUMB" fingerprint and "PASSPORT-SIZE" Photogragh should be uploaded.<br/><br/>
+                            &emsp;&emsp;5. Minimum age and eligibility conditions will be mentioned in opening ceremony. Refer TIMELINE.<br/><br/>
+                            <br/><br/>
+                        </Info>
+                        <hr color="darkblue"/><br/>
+                        <Heading content=" 3. GUIDELINES FOR CANDIDATES :"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;1. ALL fields except middle name are required.<br/><br/>
+                            &emsp;&emsp;2. Upload IMAGE FILES (JPEG) for photograph, symbol, and signature. IMAGE FILES maximum size is 40MB.<br/><br/>
+                            &emsp;&emsp;3. SIGNATURE AND SYMBOL SHOULD BE CLEARLY VISIBLE AND READABLE.<br/><br/>
+                            &emsp;&emsp;4. "A4-SIZE" symbol and "PASSPORT-SIZE" Photogragh should be uploaded.<br/><br/>
+                            &emsp;&emsp;5. Minimum age and eligibility conditions will be mentioned in opening ceremony. Refer TIMELINE.<br/><br/>
+                            <br/><br/>
+                        </Info>
+                        <hr color="darkblue"/><br/>
+                        <Info type="greeting">
+                            <br/><br/>
+                            <marquee>REMEMBER TO PLAY FAIR!!&emsp;&emsp; ATB TO ALL CANDIDATES!!&emsp;&emsp; VOTE WISELY VOTERS !!</marquee>
+                            <br/><br/>
+                        </Info>
+                    </div>,
+                    des
+                );
+            </script>
+         
+            <br><br></section>
+    </article>
+    <article></article>
+    
+   
+    
+    
+
+</Body>   
+</Html>  
