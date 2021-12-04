@@ -28,6 +28,7 @@ http.createServer((request, response) => {
             "Content-Type": 'text/plain'
         });
         response.write('404: Internal Error');
+        console.log("FILE STATUS: 404: Internal Error...");
         response.end();
         return;
     }
@@ -37,19 +38,21 @@ http.createServer((request, response) => {
         response.writeHead(200, {
             "Content-Type": fileType
         });
+        console.log("FILE STATUS: 200: Successful...");
         var fileStream = fs.createReadStream(fileName);
         fileStream.pipe(response);
     } else if (loadedFile.isDirectory()) {
         response.writeHead(302, {
             'Location': 'introduction.html'
         });
+        console.log("FILE STATUS: 302: success...");
         response.end();
     } else {
         response.writeHead(500, {
             "Content-Type": 'text/plain'
         });
         response.write('500: Internal Error');
-        console.log("");
+        console.log("FILE STATUS: 500: Internal Error...");
         response.end();
     }
 
