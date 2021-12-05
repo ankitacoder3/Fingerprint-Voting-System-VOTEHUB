@@ -31,8 +31,14 @@
         </nav>
         <nav></nav><br>
         <hr color= darkblue size=10><br><br><br><br>
-        <section style="height: 900px;"><br><br><!--START-->
-    
+        <section style="height: 1900px;"><br><br><!--START-->
+        <style>
+        .big{ align-items :"right";margin-left: 250px ;width: 2em; height: 2em; }
+        .bigg{align-items:"center";width:50%;font-size:50px;background-color:blueviolet;padding: 15px;padding-left: 100px;   
+                       margin: 10px 0px; }
+         .but{align-items: "center";} 
+    </style>
+    <body>
         <div id="root"></div>
         <script type="text/babel">
             class Intro extends React.Component{
@@ -42,6 +48,15 @@
                             <h1>VoterID:[       ]</h1>
                             <h2># You can vote only for one candidate</h2>
                             <h2># You can submit the form only once</h2>
+                            </div>
+                    )
+                }
+            }
+            class Btn extends React.Component{
+                render(){
+                    return(
+                        <div>
+                            <input type="radio" class="big" name="vote" value="Vote" required />Vote
                             </div>
                     )
                 }
@@ -64,13 +79,19 @@
                             <h1>{this.props.cand}:{this.props.name}</h1>
                             <img src="profile1.jpg"></img>
                             <img src="moon.jpg"></img>
-                            <button type="button">Vote</button>
-                        
-                          
-                            
-                            </div>
+                            <Btn/>
+                             
+                        </div>
 
                     )
+                }
+            }
+            class Finbtn extends React.Component{
+                render(){
+                    return(<center>
+                    
+                        <a href="complete.html"><button class="bigg">VOTE&emsp;&emsp;</button></a></center>
+                            )
                 }
             }
             ReactDOM.render(
@@ -80,8 +101,11 @@
                     <Details  cand="Candidate 1" name="Aryan"  />
                     <Details  cand="Candidate 2" name="Vidisha"/>
                     <Details  cand="Candidate 3" name="Ankita"/>
-                    <Details  cand="Candidate 4" name="Anvita"/>
+                    <Details  cand="Candidate 4" name="Aarav"/>
+                    <Details  cand="Candidate 5" name="Alya"/>
+                    <Details  cand="Candidate 6" name="Sujay"/>
                    
+                    <Finbtn/>
                     </div>,
                     document.querySelector("#root")
             );
