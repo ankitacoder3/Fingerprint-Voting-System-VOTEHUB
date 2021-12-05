@@ -31,10 +31,11 @@
         </nav>
         <nav></nav><br>
         <hr color= darkblue size=10><br><br><br><br>
-        <section style="height: 1900px;"><br><br><!--START-->
+        <section style="height: 2050px;"><br><br><!--START-->
         <style>
+        .post{font-size: 50px;color:rgb(139, 59, 5);}
         .big{ align-items :"right";margin-left: 250px ;width: 2em; height: 2em; }
-        .bigg{align-items:"center";width:50%;font-size:50px;background-color:blueviolet;padding: 15px;padding-left: 100px;   
+        .bigg{align-items:"center";width:50%;font-size:50px;background-color:rgb(226, 43, 128);padding: 15px;padding-left: 100px;   
                        margin: 10px 0px; }
          .but{align-items: "center";} 
     </style>
@@ -45,7 +46,8 @@
                 render(){
                     return(
                         <div>
-                            <h1>VoterID:[       ]</h1>
+                            <center><h1 class="post">POST:SCHOOL CAPTAIN/VICE-CAPTAIN</h1></center>
+                            <h1>*VoterId:<input type="text" name="uvotid" id="votid" fontSize="20px" required></input></h1> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                             <h2># You can vote only for one candidate</h2>
                             <h2># You can submit the form only once</h2>
                             </div>
@@ -53,6 +55,7 @@
                 }
             }
             class Btn extends React.Component{
+                
                 render(){
                     return(
                         <div>
@@ -66,7 +69,7 @@
                     var letterStyle={
                             padding:50,
                             margin:10,
-                            backgroundColor:"#800046",
+                            backgroundColor:"darkmagenta",
                             color:"#111",
                             display:"inline-block",
                             fontFamily:"monospace",
