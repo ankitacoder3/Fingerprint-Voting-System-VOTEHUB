@@ -1,0 +1,112 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+    <Title> VOTEHUB</Title>  
+    <link rel="stylesheet" href="mystyle.css">  
+    <link rel="icon" type="image/x-icon" href="v.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</Head>  
+<Body> 
+    <header>  <nav>  
+        <ul>  
+            <li >  <b>Votehub &emsp;&emsp; &emsp;</b></li>  
+            <li >  <a href="introduction.html"> Introduction  </a>  </li>  &emsp;&emsp;
+            <li >  <a href="contact_us.html"> Contact Us </a>  </li>  &emsp;&emsp; 
+            <li > <a href= "guidelines.html"> Guidelines </a> </li>  &emsp; &emsp;
+            <li >  <a href="faq.html"> FAQ</a>  </li>  &emsp;&emsp;
+            <li >  <a href="to_vote.html"> To Vote</a>  </li>  &emsp;&emsp;
+            <li >  <a href="timeline.html"> Timeline</a>  </li>  &emsp;&emsp;
+            <li >  <a href="profile.html"> Profile</a>  </li>   &emsp; &emsp;&emsp;
+            <li >  <a href="login.html"> <img width="50px" height="50px" src="key3.jpg"></img> </a>  </li>   &emsp;&emsp;
+        </ul>
+    </nav>  </header> 
+    <hr color= darkblue size=10>
+    <article> 
+        <nav style="position: sticky;height: 50px;"> &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            &ensp; FAQ's<!--heading here , all letters in caps-->
+
+        </nav>
+        <nav></nav><br>
+        <hr color= darkblue size=10><br><br><br><br>
+        <section  style="height: 1950px;"><br><br>
+
+            <!--body content here , u can add inline style if u want-->
+
+            <div id="container"></div>
+            
+            <script type="text/babel">
+                var des = document.querySelector("#container");
+                class Heading extends React.Component {
+                    render() {
+                        return <h1 style={{color: "blue"}}> <h1>{this.props.content} </h1></h1>
+                    }
+                }
+                class Info extends React.Component {
+                    render() {
+                        return <div className={this.props.type}>
+                        <h5 style={{color: "red"}} >&emsp;&emsp;{this.props.children}</h5>
+                        </div>
+                    }
+                }
+
+        
+                ReactDOM.render(
+                    <div>
+                        <Heading content=" Frequently asked queries:"/>
+                        <Info type="greeting" >
+                            &emsp;&emsp; <br/><br/>
+                        </Info>
+                        <hr color="white"/><br/>
+                        <Heading content=" 1.what is the min age to vote ?"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;Ans. It will be informed during opening seremony.<br/><br/>
+                           
+                        </Info>
+                        <hr color="white"/><br/>
+                        <Heading content=" 2. what is mandatory to carry during voting session ?"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;Ans. Identity card.<br/><br/>
+                            
+                        </Info>
+                        <hr color="white"/><br/>
+                        <Heading content=" 3.  can we vote two persons ?"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;Ans.  No.if you vote 2persons your vote will not be considered.<br/><br/>
+                            
+                        </Info>
+                        <hr color="white"/><br/>
+                        <Heading content=" 4. Can we use other format to insert a image other than .jpg  ?"/>
+                        <Info type="greeting">
+                            <br/>
+                            &emsp;&emsp;Ans. No.<br/><br/>
+                            
+                        </Info>
+                        <hr color="white"/><br/>
+                        <Info type="greeting">
+                            <br/><br/>
+                            <marquee>FOR FURTHER QUERIES REFER CONTACTUS PAGE!!&emsp;&emsp;</marquee>
+                            <br/><br/>
+                        </Info>
+                    </div>,
+                    des
+                );
+            </script>
+         
+            <br><br></section>
+    </article>
+    <article></article>
+    
+   
+    
+    
+
+</Body>   
+</Html>  
