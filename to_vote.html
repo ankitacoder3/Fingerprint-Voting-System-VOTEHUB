@@ -31,7 +31,7 @@
         </nav>
         <nav></nav><br>
         <hr color= darkblue size=10><br><br><br><br>
-        <section style="height: 2050px;"><br><br><!--START-->
+        <section style="height: 2000px;"><br><br><!--START-->
         <style>
         .post{font-size: 50px;color:rgb(139, 59, 5);}
         .big{ align-items :"right";margin-left: 250px ;width: 2em; height: 2em; }
@@ -40,17 +40,18 @@
          .but{align-items: "center";} 
     </style>
     <body>
-        <div id="root"></div>
+        <form id="root"></form>
+        <!--<div id="root"></div>-->
         <script type="text/babel">
             class Intro extends React.Component{
                 render(){
                     return(
                         <div>
                             <center><h1 class="post">POST:SCHOOL CAPTAIN/VICE-CAPTAIN</h1></center>
-                            <h1>*VoterId/CandidateId:<input type="text" name="uid" id="id" fontSize="20px" required ref={register({ required: true })}>
+                            <h1 style={{color:"darkblue"}}>*VoterId/CandidateId:<input type="text" name="uid" id="id" fontSize="20px" required>
                                 </input></h1> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            <h2># You can vote only for one candidate</h2>
-                            <h2># You can submit the form only once</h2>
+                            <h2 style={{color:"blue"}}># You can vote only for one candidate</h2>
+                            <h2 style={{color:"blue"}}># You can submit the form only once</h2>
                             </div>
                     )
                 }
@@ -81,8 +82,8 @@
                         <div style={letterStyle}> 
                             
                             <h1>{this.props.cand}:{this.props.name}</h1>
-                            <img src={this.props.pic1}></img>
-                            <img src={this.props.pic2}></img>
+                            <img src={this.props.pic1} height="150px" width="150px"></img>
+                            <img src={this.props.pic2} height="150px" width="150px"></img>
                             <Btn/>
                              
                         </div>
@@ -100,14 +101,19 @@
             }
             ReactDOM.render(
                 <div>
-                    <Intro/>
-                    
-                    <Details  cand="Candidate 1" name="Aryan" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg" />
-                    <Details  cand="Candidate 2" name="Vidisha" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg"/>
-                    <Details  cand="Candidate 3" name="Ankita" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg"/>
-                    <Details  cand="Candidate 4" name="Aarav" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg"/>
-                    <Details  cand="Candidate 5" name="Alya" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg"/>
-                    <Details  cand="Candidate 6" name="Sujay" pic1="./candidate_details/profile1.jpg" pic2="./candidate_details/moon.jpg"/>
+                    <Intro/><br/><br/>
+                    &emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 1" name="Aryan" pic1="./candidate_details/p1.png" pic2="./candidate_details/c1.jpg" />
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 2" name="Vidisha" pic1="./candidate_details/p2.png" pic2="./candidate_details/c2.jpg"/><br/><br/><br/>
+                    &emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 3" name="Lavanya" pic1="./candidate_details/p3.jpg" pic2="./candidate_details/c3.png"/>
+                    &emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 4" name="Aarav" pic1="./candidate_details/p4.png" pic2="./candidate_details/c4.jpg"/><br/><br/><br/>
+                    &emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 5" name="Alya" pic1="./candidate_details/p5.jpg" pic2="./candidate_details/c5.jpg"/>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <Details  cand="Candidate 6" name="Sujay" pic1="./candidate_details/p6.jpg" pic2="./candidate_details/c6.jpg"/><br/><br/><br/>
                    
                     <Finbtn/>
                     </div>,
