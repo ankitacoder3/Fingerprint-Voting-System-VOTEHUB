@@ -7,7 +7,11 @@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-</Head>  
+</Head> 
+<style>
+    h1{color:brown}
+    p{color:green}
+</style> 
 <Body> 
     <header>  <nav>  
         <ul>  
@@ -32,7 +36,7 @@
         </nav>
         <nav></nav><br>
         <hr color= darkblue size=10><br><br><br><br>
-        <section style="font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic;font-size: 30px; height: 1100px;"><br><br>
+        <section style="font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic;font-size: 30px; height: 700px;"><br><br>
 
            
             <!--body content here , u can add inline style if u want-->
@@ -54,7 +58,7 @@
                     return(
                         <div>
                         <Intcont/>
-                        <Intvideo/>
+                        
                         </div>
 
                         )
@@ -67,12 +71,13 @@
                         <center><h1> WHAT IS IT ABOUT? </h1></center>
                             <p>Voting is a method for a group, such as a meeting or an electorate, in order to make a collective decision or express an opinion usually following discussions, debates or election campaigns. Democracies elect holders of high office by voting. </p>
                             <p>Voting is a way you can represent the right person.It is very much essential to choose a right person,so why wait ...</p>
-                            <p>So ,hurry and come forward to cast your votes is votehub</p>
+                            <p>So ,hurry and come forward to cast your votes in votehub</p>
+                            
                         
                             </div> )
                 }
             }
-            class Intvideo extends React.Component{
+            /*class Intvideo extends React.Component{
                 render(){
                     return(
                         <div>
@@ -84,7 +89,7 @@
                             </div>
                     )
                 }
-            }
+            }*/
             ReactDOM.render(
                 <div>
                     <Intro/>
