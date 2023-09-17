@@ -13,3 +13,15 @@
 </details>
 </br>
 
+## Prerequisites and Techstack
+  * HTML
+  * JavaScript
+  * Cascading Style Sheets
+  * ReactJS
+  * NodeJS
+  * ExpressJS
+  * MongoDB
+
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  </br>
