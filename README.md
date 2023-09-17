@@ -1,6 +1,6 @@
 # Fingerprint-Voting-System-VOTEHUB
 
-```VITEHUB``` is a ```Fingerprint Voting System```. In this project website part has been implemented using ```MERN Stack```.
+```VOTEHUB``` is a ```Fingerprint Voting System```. In this project website part has been implemented using ```MERN Stack```.
 
 
 
