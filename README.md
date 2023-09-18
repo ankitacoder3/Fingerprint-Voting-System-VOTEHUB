@@ -6,10 +6,10 @@
 
 <details>
   <summary color= blue >Table of Contents</summary>
-<li>Introduction</li>
+<!--<li>Introduction</li>-->
 <li> Prerequisites and Techstack</li>
-<li> Steps for execution</li>
-<li> Usage</li>
+<!--<li> Steps for execution</li>
+<li> Usage</li>-->
 </details>
 </br>
 
